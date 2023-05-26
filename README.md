@@ -153,6 +153,11 @@ EOF  all  create  destroy  help  quit  show  update
 ## Bugs
 No known bugs at this time. 
 
+#storage
+improve storage capabilities
+
+#API
+add API
 ## Authors
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
@@ -160,3 +165,5 @@ Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://tw
 Second part of Airbnb: Joann Vuong
 ## License
 Public Domain. No copy write protection. 
+Obah Sylva [Githu] https://github.com/Sylvan452
+Oluwakayode Michael [Github] https://github.com/oluwakayodemike

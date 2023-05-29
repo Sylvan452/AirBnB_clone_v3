@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains the class DBStorage
+This script contains the class DBStorage
 """
 
 import models
@@ -83,13 +83,6 @@ class DBStorage:
                 if key.split(".")[1] == id:
                     return value
         return None
-
-    def get(self, cls, id):
-        """
-        Retrieves an object based on the class and its ID
-        """
-        key = "{}.{}".format(cls.__name__, id)
-        return self.__session.query(cls).get(key)
 
     def count(self, cls=None):
         """ counts """

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Contains the TestFileStorageDocs classes
+Script Contains the TestFileStorageDocs classes
 """
 
 from datetime import datetime
@@ -116,8 +116,8 @@ class TestFileStorage(unittest.TestCase):
 
     @unittest.skipIf(models.storage_t == 'db', "not testing file storage")
     def test_get(self):
-        """A Test that retrieves objects stored in file.json"""
+        """Test that get retrieves objects stored in file.json"""
 
     @unittest.skipIf(models.storage_t == 'db', "not testing file storage")
     def test_count(self):
-        """A Test that count and returns the right number of objects in file.json"""
+        """Test that count returns the right number of objects in file.json"""
